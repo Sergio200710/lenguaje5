@@ -1,0 +1,19 @@
+/* Ejercicio 11: Selectores Avanzados */
+
+/* 1. Enlaces con target="_blank" */
+a[target="_blank"]{
+    color:red;
+}
+/* 2. Tercer elemento de la lista .lista-items */
+.lista-items li:nth-child(3) { background: yellow; }
+/* 3. Pseudo-elemento ::before en los items de la lista */
+li before{
+    content:"➡️ " ;
+}
+/* 4. Inputs de tipo text */
+input[type="text"] { border: 2px solid blue; }
+/* 5. Párrafos que NO sean .destacado */
+p:not(.destacado) {
+    opacity: 0,5;
+}
+
