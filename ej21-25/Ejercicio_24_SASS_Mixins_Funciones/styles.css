@@ -1,0 +1,81 @@
+/* Ejercicio 24: Mixins */
+.btn-success {
+  padding: 12px 24px;
+  border-radius: 6px;
+  font_weight: bold;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #28a745;
+  color: white;
+}
+.btn-success:hover {
+  background-color: rgb(30.1449275362, 125.8550724638, 52);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.btn-success:active {
+  transform: scale(0.98);
+}
+
+.btn-danger {
+  padding: 12px 24px;
+  border-radius: 6px;
+  font_weight: bold;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #dc3545;
+  color: white;
+}
+.btn-danger:hover {
+  background-color: rgb(189.2151898734, 32.7848101266, 47.7721518987);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.btn-danger:active {
+  transform: scale(0.98);
+}
+
+.btn-warning {
+  padding: 12px 24px;
+  border-radius: 6px;
+  font_weight: bold;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #ffc107;
+  color: white;
+}
+.btn-warning:hover {
+  background-color: rgb(211, 158.25, 0);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.btn-warning:active {
+  transform: scale(0.98);
+}
+.btn-warning {
+  color: #333;
+}
+.btn-warning:hover {
+  color: #333;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  margin: 20px;
+}
+.box p {
+  margin: 0;
+  font-weight: bold;
+}/*# sourceMappingURL=styles.css.map */

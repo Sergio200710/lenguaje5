@@ -1,0 +1,43 @@
+// Importa tus parciales aquí
+// @import ...
+
+// Añade estilos específicos debajo
+@import 'variables';
+@import 'base';
+
+
+header {
+    background-color: $color-header;
+    color: white;
+    padding: $spacing-large;
+    text-align: center;
+
+    h1 {
+        font-family: $fuente-titulo;
+        font-size: 2.5em;
+        
+        &::after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 3px;
+            background-color: $color-secundario;
+            margin: $spacing-small auto 0;
+        }
+    }
+}
+
+main {
+    padding: $spacing-large;
+    max-width: 800px;
+    margin: 0 auto;
+
+    p {
+        background-color: white;
+        padding: $spacing-large;
+        border-radius: 4px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        font-size: 1.2em;
+        text-align: center;
+    }
+}
