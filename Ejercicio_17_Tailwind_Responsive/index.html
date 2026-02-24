@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 17: Diseño Responsive</title>
+    <!-- Tailwind CSS Local -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+<body class="p-6">
+
+    <div class="text-center mb-10">
+        <h1 class="text-3xl font-bold">Responsive Design</h1>
+        <p class="text-gray-600 mt-2">Redimensiona la ventana para ver los cambios.</p>
+        <p class="text-sm bg-blue-100 p-2 inline-block rounded mt-2 text-blue-800">
+            Mobile First: Escribe primero las clases base (móvil) y luego añade <code>md:</code>, <code>lg:</code>, etc.
+        </p>
+    </div>
+
+    <!-- 
+        RETO:
+        - Móvil (base): 1 columna (grid-cols-1)
+        - Tablet (md): 2 columnas (md:grid-cols-2)
+        - Desktop (lg): 3 columnas (lg:grid-cols-3)
+        
+        Además cambia el color del fondo de las tarjetas:
+        - Móvil: gris (bg-gray-100)
+        - Tablet: azul (md:bg-blue-100)
+        - Desktop: verde (lg:bg-green-100)
+    -->
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
+        <div class="p-6 rounded-lg shadow-md border hover:shadow-lg transition bg-gray-100 md:bg-blue-100 lg:bg-green-100">
+            <h2 class="font-bold text-xl mb-2">Tarjeta 1</h2>
+            <p>Contenido de la tarjeta...</p>
+        </div>
+
+        <div class="p-6 rounded-lg shadow-md border hover:shadow-lg transition bg-gray-100 md:bg-blue-100 lg:bg-green-100">
+            <h2 class="font-bold text-xl mb-2">Tarjeta 2</h2>
+            <p>Contenido de la tarjeta...</p>
+        </div>
+
+        <div class="p-6 rounded-lg shadow-md border hover:shadow-lg transition bg-gray-100 md:bg-blue-100 lg:bg-green-100">
+            <h2 class="font-bold text-xl mb-2">Tarjeta 3</h2>
+            <p>Contenido de la tarjeta...</p>
+        </div>
+
+        <div class="p-6 rounded-lg shadow-md border hover:shadow-lg transition bg-gray-100 md:bg-blue-100 lg:bg-green-100">
+            <h2 class="font-bold text-xl mb-2">Tarjeta 4</h2>
+            <p>Contenido de la tarjeta...</p>
+        </div>
+
+        <div class="p-6 rounded-lg shadow-md border hover:shadow-lg transition bg-gray-100 md:bg-blue-100 lg:bg-green-100">
+            <h2 class="font-bold text-xl mb-2">Tarjeta 5</h2>
+            <p>Contenido de la tarjeta...</p>
+        </div>
+
+        <div class="p-6 rounded-lg shadow-md border hover:shadow-lg transition bg-gray-100 md:bg-blue-100 lg:bg-green-100">
+            <h2 class="font-bold text-xl mb-2">Tarjeta 6</h2>
+            <p>Contenido de la tarjeta...</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

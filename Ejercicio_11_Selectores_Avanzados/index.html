@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11: Selectores Avanzados</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { font-family: sans-serif; padding: 2rem; }
+        .instrucciones { background: #f0f0f0; padding: 1rem; margin-bottom: 2rem; border-left: 4px solid #333; }
+        /* No toques este estilo base, trabaja en styles.css */
+    </style>
+</head>
+<body>
+
+    <div class="instrucciones">
+        <h2>Instrucciones</h2>
+        <p>Edita el archivo <code>styles.css</code> para lograr los siguientes objetivos utilizando selectores avanzados:</p>
+        <ol>
+            <li>Selecciona todos los enlaces que tengan el atributo <code>target="_blank"</code> y ponles color rojo.</li>
+            <li>Selecciona el <strong>tercer</strong> elemento de la lista y ponle fondo amarillo.</li>
+            <li>Usa <code>::before</code> para añadir el texto "➡️ " antes de cada elemento de la lista.</li>
+            <li>Selecciona todos los inputs de tipo "text" y ponles un borde azul.</li>
+            <li>Usa <code>:not(.destacado)</code> para poner opacidad 0.5 a los párrafos que NO tengan la clase 'destacado'.</li>
+        </ol>
+    </div>
+
+    <h3>Lista de Enlaces</h3>
+    <ul>
+        <li><a href="#">Enlace Normal</a></li>
+        <li><a href="#" target="_blank">Enlace Externo (Rojo)</a></li>
+        <li><a href="#">Otro Enlace</a></li>
+    </ul>
+
+    <h3>Lista de Items</h3>
+    <ul class="lista-items">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3 (Fondo Amarillo)</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+    <h3>Formulario</h3>
+    <form>
+        <input type="text" placeholder="Texto (Borde Azul)">
+        <input type="password" placeholder="Password">
+        <input type="text" placeholder="Otro Texto (Borde Azul)">
+    </form>
+
+    <h3>Párrafos</h3>
+    <p class="destacado">Este párrafo es destacado (Visible)</p>
+    <p>Este párrafo NO es destacado (Opacidad 0.5)</p>
+    <p>Este párrafo tampoco (Opacidad 0.5)</p>
+    <p class="destacado">Este párrafo es destacado (Visible)</p>
+
+</body>
+</html>

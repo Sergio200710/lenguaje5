@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 16: Grid con Tailwind</title>
+    <!-- Tailwind CSS Local -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-900 text-white p-10">
+
+    <h1
+        class="text-3xl font-bold mb-6 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+        Layout Bento Grid
+    </h1>
+
+    <p class="mb-6 text-gray-400 text-center max-w-lg mx-auto">
+        Usa <code>grid</code>, <code>grid-cols-*</code>, <code>gap-*</code>, <code>row-span-*</code> y
+        <code>col-span-*</code> para crear un layout estilo "Bento" (como las cajas de abajo).
+    </p>
+
+    <!-- Contenedor Grid: Define 3 columnas por defecto (grid-cols-3) y un gap de 4 -->
+    <div class="max-w-4xl mx-auto h-[600px] grid grid-cols-3 gap-4"><!-- Añade clases grid aquí -->
+
+        <!-- Item Grande (Span 2 columnas, Span 2 filas) -->
+        <div class="bg-gray-800 rounded-2xl p-6 border border-gray-700 row-span-2 col-span-2">
+            <h2 class="text-2xl font-bold">Principal</h2>
+            <p class="text-gray-400 mt-2">Este bloque debería ocupar 2 columnas y 2 filas.</p>
+        </div>
+
+        <!-- Item Pequeño -->
+        <div class="bg-gray-800 rounded-2xl p-6 border border-gray-700">
+            <h2 class="text-xl font-bold">Lateral 1</h2>
+        </div>
+
+        <!-- Item Pequeño -->
+        <div class="bg-gray-800 rounded-2xl p-6 border border-gray-700">
+            <h2 class="text-xl font-bold">Lateral 2</h2>
+        </div>
+
+        <!-- Item Largo (Span 3 columnas - Todo el ancho) -->
+        <div class="bg-purple-900/50 rounded-2xl p-6 border border-purple-500/30 col-span-3">
+            <h2 class="text-xl font-bold">Footer / Banner Ancho</h2>
+            <p>Este bloque debería ocupar todo el ancho (3 columnas).</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

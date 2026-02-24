@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15: Flexbox con Tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-100 p-10">
+
+    <div class="mb-8 p-4 bg-yellow-100 border-l-4 border-yellow-500 rounded text-yellow-800">
+        <strong>Objetivo:</strong> Usar <code>flex</code>, <code>justify-*</code>, <code>items-*</code> y `gap-*` para
+        alinear elementos.
+    </div>
+
+    <!-- Contenedor Principal: Haz que sea Flex, centra el contenido y da espacio entre elementos -->
+    <nav class=" items-center bg-white p-4 rounded shadow mb-8">
+        <!-- Haz esto flex y separa el logo del menú (justify-between) -->
+        <div class="flex justify-between items-center ">
+            <div class="font-bold text-xl text-indigo-600">MiLogo</div>
+
+            <!-- Menú: Hazlo flex y añade gap -->
+            <ul class="flex gap-6">
+                <li><a href="#" class="text-gray-600 hover:text-indigo-600">Inicio</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-indigo-600">Servicios</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-indigo-600">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <h2 class="text-2xl font-bold mb-4 text-center">Galería Flex</h2>
+    <!-- Haz que este contenedor sea flex, permita wrap (flex-wrap) y centre los items -->
+    <div class="flex flex-wrap justify-center gap-1">
+
+        <!-- Tarjetas de ejemplo -->
+        <div class="w-40 h-40 bg-blue-500 text-white flex items-center justify-center rounded m-2">Item 1</div>
+        <div class="w-40 h-40 bg-green-500 text-white flex items-center justify-center rounded m-2">Item 2</div>
+        <div class="w-40 h-40 bg-red-500 text-white flex items-center justify-center rounded m-2">Item 3</div>
+        <div class="w-40 h-40 bg-purple-500 text-white flex items-center justify-center rounded m-2">Item 4</div>
+        <div class="w-40 h-40 bg-orange-500 text-white flex items-center justify-center rounded m-2">Item 5</div>
+
+    </div>
+
+</body>
+
+</html>

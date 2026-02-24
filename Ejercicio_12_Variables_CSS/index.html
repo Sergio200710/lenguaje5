@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 12: Variables CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .instrucciones {
+            max-width: 600px;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="instrucciones">
+        <h2>Instrucciones</h2>
+        <p>1. Define tus variables de color en <code>:root</code> en el archivo CSS.</p>
+        <p>2. Aplica esas variables a la tarjeta (fondo, texto, borde, botón).</p>
+        <p>3. Crea una clase <code>.dark-mode</code> que redefina esas variables para un tema oscuro.</p>
+        <p>4. Añade la clase <code>dark-mode</code> al body (manualmente en el HTML) para probar que los colores cambian
+            automáticamente.</p>
+    </div>
+
+    <!-- Tarjeta de Producto -->
+    <div class="card">
+        <div class="card-header">
+            <h3>Producto Premium</h3>
+        </div>
+        <div class="card-body">
+            <p>Este es un producto increíble con características únicas. Cómpralo ahora.</p>
+            <div class="price">$99.99</div>
+        </div>
+        <div class="card-footer">
+            <button class="btn">Comprar Ahora</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
