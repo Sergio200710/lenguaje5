@@ -1,0 +1,39 @@
+/* Estilos para el ejercicio 27 */
+
+// Variables
+$primary-color: #e74c3c;
+$bg-color: #ecf0f1;
+$font-stack: Arial, sans-serif;
+
+// Estilos generales
+body {
+    font-family: $font-stack;
+    background-color: $bg-color;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: $primary-color;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+p {
+    color: darken($bg-color, 50%);
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.6;
+}
