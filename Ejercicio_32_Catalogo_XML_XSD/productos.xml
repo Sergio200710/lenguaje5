@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="productos.xsd">
+    
+    <producto id="1">
+        <nombre>Smartphone Samsung Galaxy</nombre>
+        <precio>299.99</precio>
+        <descripcion>Teléfono con pantalla de 6.5 pulgadas y 128GB</descripcion>
+        <categoria>Electrónica</categoria>
+    </producto>
+    
+    <producto id="2">
+        <nombre>Portátil HP Pavilion</nombre>
+        <precio>599.50</precio>
+        <descripcion>Portátil con i5, 8GB RAM y 256GB SSD</descripcion>
+        <categoria>Computadoras</categoria>
+    </producto>
+    
+    <producto id="3">
+        <nombre>Auriculares Bluetooth</nombre>
+        <precio>49.99</precio>
+        <descripcion>Auriculares inalámbricos con estuche de carga</descripcion>
+        <categoria>Audio</categoria>
+    </producto>
+    
+    <producto id="4">
+        <nombre>Tablet Lenovo</nombre>
+        <precio>199.00</precio>
+        <descripcion>Tablet de 10 pulgadas, 64GB, WiFi</descripcion>
+        <categoria>Electrónica</categoria>
+    </producto>
+    
+    <producto id="5">
+        <nombre>Smartwatch Xiaomi</nombre>
+        <precio>89.95</precio>
+        <descripcion>Reloj inteligente con monitor de frecuencia cardíaca</descripcion>
+        <categoria>Wearables</categoria>
+    </producto>
+</catalogo>

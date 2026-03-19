@@ -1,0 +1,13 @@
+{
+  "name": "ejercicio32-catalogo",
+  "version": "1.0.0",
+  "description": "Catálogo de Productos con XML",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.69.5"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio34-noticias",
+  "version": "1.0.0",
+  "description": "Lector de noticias RSS con XML",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.69.5",
+    "gulp-clean-css": "^4.3.0"
+  }
+}

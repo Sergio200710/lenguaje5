@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="feed.xsd">
+    <channel>
+        <title>Noticias Tecnología Hoy</title>
+        <description>Las últimas noticias del mundo tech</description>
+        <link>https://tecnologiahoy.com</link>
+        <language>es</language>
+        
+        <item>
+            <title>Nuevo iPhone 15 Pro Max revoluciona el mercado</title>
+            <description>Apple presenta el iPhone más potente hasta la fecha con chip A17 Pro y cámara de 48MP</description>
+            <pubDate>2024-03-15</pubDate>
+            <author>Carlos Rodríguez</author>
+            <category>Tecnología Móvil</category>
+        </item>
+        
+        <item>
+            <title>ChatGPT-5: La nueva era de la IA</title>
+            <description>OpenAI lanza la versión más avanzada de su modelo de lenguaje con capacidades multimodales</description>
+            <pubDate>2024-03-14</pubDate>
+            <author>Ana Martínez</author>
+            <category>Inteligencia Artificial</category>
+        </item>
+        
+        <item>
+            <title>PlayStation 5 Pro: Filtraciones y rumores</title>
+            <description>Supuesta nueva consola de Sony llegaría a finales de 2024 con mejoras en ray tracing</description>
+            <pubDate>2024-03-13</pubDate>
+            <author>Miguel Sánchez</author>
+            <category>Videojuegos</category>
+        </item>
+        
+        <item>
+            <title>Starlink alcanza 2 millones de usuarios</title>
+            <description>El servicio de internet satelital de SpaceX sigue creciendo y llega a nuevos países</description>
+            <pubDate>2024-03-12</pubDate>
+            <author>Laura Gómez</author>
+            <category>Internet</category>
+        </item>
+        
+        <item>
+            <title>Nuevo virus informático: Cómo protegerte</title>
+            <description>Expertos en ciberseguridad alertan sobre nueva amenaza que afecta a Windows</description>
+            <pubDate>2024-03-11</pubDate>
+            <author>Pedro López</author>
+            <category>Seguridad</category>
+        </item>
+        
+        <item>
+            <title>Tesla presenta su robot Optimus Gen 2</title>
+            <description>El robot humanoide de Tesla ahora puede caminar y manipular objetos con mayor precisión</description>
+            <pubDate>2024-03-10</pubDate>
+            <author>Elena Torres</author>
+            <category>Robótica</category>
+        </item>
+    </channel>
+</rss>

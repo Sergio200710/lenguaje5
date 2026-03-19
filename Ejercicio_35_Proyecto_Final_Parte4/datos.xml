@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="schema.xsd">
+    
+    <pelicula id="1">
+        <titulo>El Padrino</titulo>
+        <director>Francis Ford Coppola</director>
+        <anyo>1972</anyo>
+        <genero>Drama</genero>
+    </pelicula>
+    
+    <pelicula id="2">
+        <titulo>El Caballero Oscuro</titulo>
+        <director>Christopher Nolan</director>
+        <anyo>2008</anyo>
+        <genero>Acción</genero>
+    </pelicula>
+    
+    <pelicula id="3">
+        <titulo>Pulp Fiction</titulo>
+        <director>Quentin Tarantino</director>
+        <anyo>1994</anyo>
+        <genero>Thriller</genero>
+    </pelicula>
+    
+    <pelicula id="4">
+        <titulo>Cadena Perpetua</titulo>
+        <director>Frank Darabont</director>
+        <anyo>1994</anyo>
+        <genero>Drama</genero>
+    </pelicula>
+    
+    <pelicula id="5">
+        <titulo>Matrix</titulo>
+        <director>Hermanas Wachowski</director>
+        <anyo>1999</anyo>
+        <genero>Ciencia Ficción</genero>
+    </pelicula>
+    
+    <pelicula id="6">
+        <titulo>Origen</titulo>
+        <director>Christopher Nolan</director>
+        <anyo>2010</anyo>
+        <genero>Ciencia Ficción</genero>
+    </pelicula>
+    
+    <pelicula id="7">
+        <titulo>Forrest Gump</titulo>
+        <director>Robert Zemeckis</director>
+        <anyo>1994</anyo>
+        <genero>Drama</genero>
+    </pelicula>
+    
+    <pelicula id="8">
+        <titulo>Toy Story</titulo>
+        <director>John Lasseter</director>
+        <anyo>1995</anyo>
+        <genero>Animación</genero>
+    </pelicula>
+</peliculas>

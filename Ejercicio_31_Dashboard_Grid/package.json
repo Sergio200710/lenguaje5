@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio31-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard con Grid y SCSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.69.5"
+  }
+}

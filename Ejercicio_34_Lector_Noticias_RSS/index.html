@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lector de Noticias RSS</title>
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__contenedor">
+            <h1 class="header__titulo">📰 Noticias Tecnología Hoy</h1>
+            <p class="header__subtitulo">Las últimas noticias del mundo tech</p>
+        </div>
+    </header>
+    
+    <main class="main">
+        <div class="cargando" id="cargando">
+            <div class="cargando__spinner"></div>
+            <p>Cargando noticias...</p>
+        </div>
+        
+        <div class="noticias" id="noticias"></div>
+        
+        <div class="error" id="error" style="display: none;">
+            <p>Error al cargar las noticias. Intenta de nuevo más tarde.</p>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <p>Feed RSS con validación XSD - Ejercicio 34</p>
+            <p class="footer__fecha" id="fechaActual"></p>
+        </div>
+    </footer>
+    
+    <script src="dist/js/main.js"></script>
+</body>
+</html>
