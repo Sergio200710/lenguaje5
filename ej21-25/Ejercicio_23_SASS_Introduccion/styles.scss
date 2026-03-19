@@ -1,0 +1,75 @@
+/* 
+  Ejercicio 23: SASS Introducción
+*/
+
+// 1. Define Variables
+$color-principal: #3498db;
+$color-secundario: #2ecc71;
+$color-texto: #333;
+$color-fondo: #ecf0f1;
+
+$fuente-principal: 'Arial', sans-serif;
+$fuente-titulo: 'Georgia', serif;
+
+$border-radius: 8px;
+$padding-base: 15px 30px;
+
+// 2. Usa Nesting
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: $color-fondo;
+    border-radius: $border-radius;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  // CORREGIDO: espacios después de comas
+    font-family: $fuente-principal;
+    text-align: center;
+
+    h1 {
+        color: $color-principal;
+        font-family: $fuente-titulo;
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);  // CORREGIDO
+
+        &::after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 3px;
+            background-color: $color-secundario;
+            margin: 15px auto 0;
+        }
+    }
+
+    p {
+        color: $color-texto;
+        font-size: 1.2em;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        padding: 0 20px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: $padding-base;
+        background-color: $color-principal;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: $border-radius;
+        transition: all 0.3s ease;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            background-color: darken($color-principal, 10%);
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);  // CORREGIDO
+        }
+
+        &:active {
+            transform: scale(0.98);
+        }
+    }
+}
